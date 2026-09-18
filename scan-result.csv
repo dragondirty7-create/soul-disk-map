@@ -1,0 +1,11 @@
+"Name","Files","Folders","Logical Size","Physical Size","Attributes","Last Change","Soul Disk Map Attributes","Index"
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder",5,4,4600020,4612120,"",2026-09-16T03:16:30Z,0x30000004,0x0000000000000000
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\alpha",1,0,3000000,3002368,"",2026-09-16T03:16:30Z,0x20000004,0x003100000004503A
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\alpha\big-3mb.bin",0,0,3000000,3002368,"A",2026-09-16T03:16:30Z,0x20000008,0x0022000000045048
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\beta",2,1,1500000,1507328,"",2026-09-16T03:16:30Z,0x20000004,0x002E00000004503B
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\beta\nested",1,0,500000,503808,"",2026-09-16T03:16:30Z,0x20000004,0x002300000004503D
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\beta\nested\half-500kb.bin",0,0,500000,503808,"A",2026-09-16T03:16:30Z,0x20000008,0x00370000000450A6
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\beta\one-1mb.bin",0,0,1000000,1003520,"A",2026-09-16T03:16:30Z,0x20000008,0x002600000004504F
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\gamma",1,0,100000,102400,"",2026-09-16T03:16:30Z,0x20000004,0x002E000000045040
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\gamma\small-100kb.bin",0,0,100000,102400,"A",2026-09-16T03:16:30Z,0x20000008,0x0023000000045150
+"C:\Users\drago\Documents\GitHub\soul-disk-map\test-scan-folder\readme.txt",0,0,20,24,"A",2026-09-16T03:16:30Z,0x20000008,0x0038000000045047

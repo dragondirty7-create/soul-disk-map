@@ -1,0 +1,32 @@
+# Upstream's own git clone, renamed so its source commits into THIS repo
+# (GPL-2.0 requires the complete corresponding source to ship with the binary).
+# Rename back to `.git` if you want to pull from windirstat/windirstat again.
+upstream/.git-upstream-clone/
+
+# MSBuild output and intermediates — ~325 MB, never commit
+upstream/intermediate/
+upstream/build/
+*.obj
+*.pch
+*.iobj
+*.ipdb
+*.pdb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.res
+*.ilk
+*.exp
+*.lib
+
+# Visual Studio / editor
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

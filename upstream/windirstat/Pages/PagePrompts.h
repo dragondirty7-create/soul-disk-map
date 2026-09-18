@@ -1,0 +1,55 @@
+﻿// WinDirStat - Directory Statistics
+// Copyright © WinDirStat Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 2 of the License, or
+// at your option any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+
+#pragma once
+
+#include "pch.h"
+#include "PageShared.h"
+
+//
+// CPagePrompts. "Settings" property page "Prompts".
+//
+class CPagePrompts final : public COptionsPage
+{
+    DECLARE_DYNAMIC(CPagePrompts)
+
+    enum : std::uint8_t { IDD = IDD_PAGE_PROMPTS };
+
+    CPagePrompts();
+    ~CPagePrompts() override = default;
+
+protected:
+    void InitializePage() override;
+    void OnOK() override;
+
+    BOOL m_showDeletePermanentlyWarning = FALSE;
+    BOOL m_showDeleteToRecycleBinWarning = FALSE;
+    BOOL m_showElevationPrompt = FALSE;
+    BOOL m_showDupeDetectionCloudLinksWarning = FALSE;
+    BOOL m_showMicrosoftProgress = FALSE;
+    BOOL m_showEmptyRecycleBinPrompt = FALSE;
+    BOOL m_showCreateHardlinkPrompt = FALSE;
+    BOOL m_showRemoveMotwPrompt = FALSE;
+    BOOL m_showDisableHibernatePrompt = FALSE;
+    BOOL m_showRemoveShadowCopiesPrompt = FALSE;
+    BOOL m_showDismCleanupPrompt = FALSE;
+    BOOL m_showDismResetPrompt = FALSE;
+    BOOL m_showSetDatesPrompt = FALSE;
+    BOOL m_showRemoveEmptyFoldersPrompt = FALSE;
+
+    DECLARE_MESSAGE_MAP()
+};
